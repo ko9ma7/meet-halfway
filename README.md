@@ -1,7 +1,7 @@
 # MeetHalfway
 
 **MeetHalfway**는 여러 참석자의 출발 위치를 하나의 공유 링크로 모은 뒤, 마감 시점에 **기하학적 중앙값(geometric median)** 기반의 균형 중간지점과 주변 식당 밀집 후보를 보여주는 GitHub Pages용 웹서비스입니다.
-
+일명 !! " 어! 중가""
 ![MeetHalfway Social Preview](./repository-social-preview.png)
 
 ## Preview
