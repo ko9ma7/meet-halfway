@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="어?중간 로고">
+  <rect width="64" height="64" rx="18" fill="#182132"/>
+  <circle cx="12" cy="45" r="4" fill="#27A785"/>
+  <circle cx="52" cy="45" r="4" fill="#E95A47"/>
+  <path d="M16 45 C22 45 25 48 30 50" fill="none" stroke="#ffffff" stroke-opacity=".52" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M48 45 C42 45 39 48 34 50" fill="none" stroke="#ffffff" stroke-opacity=".52" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M22 20 C23 12 29 8 37 8 C46 8 52 13 52 21 C52 28 48 31 42 34 C37 36 34 39 34 44" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="51" r="4.5" fill="#FFC857"/>
+</svg>
