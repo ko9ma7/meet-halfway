@@ -1,0 +1,14 @@
+// Public defaults shipped to browsers. These are not secrets.
+export const PUBLIC_DEFAULTS = Object.freeze({
+  MAP_PROVIDER: 'kakao',
+  KAKAO_MAPS_JAVASCRIPT_KEY: '859b5e50a2231e26f3c913a54a21bf63',
+  GOOGLE_MAPS_API_KEY: '',
+  SUPABASE_URL: 'https://omocbasuzeyayeknyzbt.supabase.co',
+  SUPABASE_PUBLISHABLE_KEY: 'sb_publishable_wfQ1zXRp_uUCT5wVjNUrEg_IxWZLvZ8',
+  SUPABASE_ANON_KEY: '',
+  PUBLIC_SITE_URL: 'https://ko9ma7.github.io/meet-halfway',
+  GEOCODING_COUNTRY_CODES: 'kr',
+  OVERPASS_RADIUS_METERS: '2500',
+  DEFAULT_LANGUAGE: 'auto',
+  DEFAULT_STYLE: 'aurora'
+});
