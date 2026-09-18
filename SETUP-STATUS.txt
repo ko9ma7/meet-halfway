@@ -1,0 +1,23 @@
+MeetHalfway setup status
+========================
+
+[SET] Kakao Maps JavaScript key
+[SET] Supabase Project URL
+[SET] Supabase Publishable key
+[SET] GitHub Pages URL
+[CHECK ON DEPLOY] Supabase schema.sql installed
+[MANUAL ONCE] Kakao JavaScript SDK allowed domain registration
+
+Ready-to-deploy values
+----------------------
+All browser-safe runtime values are already included.
+Do NOT add service_role, sb_secret, database passwords, or private administrator credentials.
+
+One-click deployment
+--------------------
+1. Extract the ZIP fully.
+2. Double-click github-bootstrap.cmd.
+3. The script validates the Supabase RPC schema.
+4. If the schema is missing, the script copies supabase/schema.sql to the clipboard and opens the Supabase SQL Editor. Paste/run it once, then return to the CMD and press Enter.
+5. The script builds, creates/updates the GitHub repository, sets About/Topics/Variables, pushes main, enables Pages, waits for deployment, and creates the initial release.
+6. Kakao Maps still requires the GitHub Pages origin to be registered once in Kakao Developers.
