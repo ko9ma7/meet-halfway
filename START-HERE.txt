@@ -1,0 +1,22 @@
+MeetHalfway - Windows one-click deployment
+==========================================
+
+1. Do NOT run github-bootstrap.cmd inside the ZIP.
+2. Extract the entire ZIP to a normal folder.
+3. Double-click github-bootstrap.cmd.
+4. The package already contains the browser-safe Kakao/Supabase/Page configuration.
+5. If the Supabase schema is not installed yet, the script copies supabase\schema.sql to the clipboard and opens the correct Supabase SQL Editor. Paste, Run, return to CMD, press Enter.
+6. The script then checks/builds the site, creates or updates the GitHub repository, configures About/Topics/Variables/Pages, pushes main, waits for deployment, and creates the first release.
+
+Kakao Maps one-time account setting
+-----------------------------------
+Register this JavaScript SDK allowed origin in Kakao Developers:
+https://ko9ma7.github.io
+
+For local map testing, also register:
+http://localhost:5173
+
+Public vs secret values
+-----------------------
+The Kakao JavaScript key, Supabase Project URL, and Supabase Publishable key are browser-visible by design.
+Never add Supabase sb_secret/service_role keys, DB passwords, GitHub PATs, or other private credentials to the frontend project.
