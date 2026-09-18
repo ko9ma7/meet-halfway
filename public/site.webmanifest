@@ -1,0 +1,14 @@
+{
+  "name": "가운데서 만나",
+  "short_name": "가운데서",
+  "description": "여러 사람의 출발 위치를 모아 균형 잡힌 중간지점과 주변 식당 후보를 찾는 모임 장소 결정 서비스",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8fc",
+  "theme_color": "#6d5dfc",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

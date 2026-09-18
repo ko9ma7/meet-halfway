@@ -1,0 +1,20 @@
+MeetHalfway - Windows deployment quick start
+============================================
+
+1. IMPORTANT: Do NOT double-click github-bootstrap.cmd while it is still inside the ZIP.
+2. Right-click meet-halfway-complete-fixed.zip and choose "Extract All".
+3. Open the extracted meet-halfway folder.
+4. Double-click github-bootstrap.cmd.
+5. If Windows shows a security warning for the downloaded ZIP, right-click the ZIP > Properties > check "Unblock" > Apply, then extract again.
+6. The launcher checks Git, Node.js/npm, GitHub CLI, builds the site, creates/updates the GitHub repository, sets About/Topics/Pages variables, pushes main, and enables GitHub Pages.
+
+Kakao Maps
+----------
+The provided .env already contains the map provider/key configuration requested in this chat.
+For the deployed map to work, add your GitHub Pages origin to Kakao Developers > JavaScript SDK domains.
+Example origin: https://YOUR_GITHUB_NAME.github.io
+
+Shared multi-user data
+----------------------
+Map display works independently from Supabase.
+For multiple people to write to the same meeting link from different devices, finish the Supabase setup in ADMIN_SETUP.md and run github-bootstrap.cmd again.
